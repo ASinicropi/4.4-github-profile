@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>4 4 github profile</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class ="row">
+        <div class="col-md-12">
+
+          <header>
+            <img class="github-logo" src="images/github-mark-64px.png" alt="">
+            <form><input type="text" placeholder="Search Github"></form>
+            <span class="pull-request"><a href="#">Pull requests</a></span>
+            <span class="issues"><a href="#">Issues</a></span>
+            <span class="gist"><a href="#">Gist</a></span>
+            <div class="drop-down">
+              <div id="plus"><a href="#"><i class="fa fa-plus" aria-hidden = "true"></i>
+                <i class="fa fa-caret-down" aria-hidden = "true"></i>
+              </a></div>
+              <div id="avatar"><a href="#" class="small-avatar-image"></a>
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+              </div>
+            </div>
+          </header>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-3 profile-info">
+          <div class="left-side-profile">
+            <a href="#" class="larger-avatar-image"></a>
+            <h2 id="name">{{name}}</h2>
+            <h3>ASinicropi</h3>
+            <a href="#">Add a bio</a>
+            <div class="bio-border">
+              <button>Edit Profile</button>
+            </div>
+          </div>
+          <div class="contact-info row">
+            <span id="location"><i class="fa fa-map-marker" aria-hidden="true">
+              </i><a href="#">{{location}}</a></span>
+            <span id="email"><i class="fa fa-envelope-o" aria-hidden="true">
+              </i><a href="#">{{email}}</a></span>
+            <span id="blog"><i class="fa fa-link" aria-hidden="true">
+              </i><a href="#">{{blog}}</a></span>
+            <div class="clock-border">
+              <span id="joined-date"><i class="fa fa-clock-o" aria-hidden="true">
+                Joined on Sep 6, 2016</i></span>
+            </div>
+          </div>
+          <div class="row" id="organizations">
+            <h4 id="orgz-title">Organizations</h4>
+              <!--template-->
+          </div>
+        </div>
+        <div class="col-md-9 repos">
+          <div class="right-side-profile">
+            <div class="col-md-12">
+            </div>
+          </div>
+        </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>

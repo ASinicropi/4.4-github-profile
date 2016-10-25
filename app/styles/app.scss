@@ -1,0 +1,42 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container{
+  width: 1020px;
+}
+
+form{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+input {
+  width: 360px;
+  height: 30px;
+  border: 1px solid #D5D5D5;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.drop-down {
+  display: inline-block;
+  float: right;
+}
+
+.contact-info{
+  display: inline-block;
+}
